@@ -1,7 +1,13 @@
+---
+layout: post
+title: How mockito works inside
+category : lessons
+tags : [mockito]
+---
 There are two kinds of cheating needed in unit test, one is mock, and another one is stub. Mock is used to verify the behavior, stub is to used to verify the value. But generally we call both of them "mock". See more informations about mock and stub here: http://martinfowler.com/articles/mocksArentStubs.html.
 			Mockito is a tool to mock/stub dependencies of what we want to test in the unit test.
 			For example: if we need to add unit test for the process method in CashRegister class, as code shown below:
-				public class CashRegister {
+				`public class CashRegister {
 					private final Printer printer;
 
 					public CashRegister(Printer printer) {
@@ -11,7 +17,7 @@ There are two kinds of cheating needed in unit test, one is mock, and another on
 					public void process(Purchase purchase) {
 	    				printer.print(purchase.asString());
 					}
-				}
+				}`
 
 			We can use mockito like this:
 			    @Test

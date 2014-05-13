@@ -29,7 +29,7 @@ Once there you can call `jekyll --server` on a directory and provided that direc
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
 compute categories, tags, permalinks, and construct your pages from layout templates and partials.
 
-Once parsed, Jekyll stores the result in a self-contained static `_site` folder.
+Once parsed, Jekyll stores the result in a self-contained static _site` folder.
 The intention here is that you can serve all contents in this folder statically from a plain static web-server.
 
 You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
