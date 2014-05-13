@@ -1,1 +1,58 @@
-This is to test if the works or not.
+There are two kinds of cheating needed in unit test, one is mock, and another one is stub. Mock is used to verify the behavior, stub is to used to verify the value. But generally we call both of them "mock". See more informations about mock and stub here: http://martinfowler.com/articles/mocksArentStubs.html.
+			Mockito is a tool to mock/stub dependencies of what we want to test in the unit test.
+			For example: if we need to add unit test for the process method in CashRegister class, as code shown below:
+				public class CashRegister {
+					private final Printer printer;
+
+					public CashRegister(Printer printer) {
+    					this.printer = printer;
+					}
+
+					public void process(Purchase purchase) {
+	    				printer.print(purchase.asString());
+					}
+				}
+
+			We can use mockito like this:
+			    @Test
+			    public void shouldCallAsStringInPurchaseAndPrintInPrinterWhenCashRegisterCallProcess() {
+			        Purchase mockPurchase = mock(Purchase.class);
+			        Printer mockPrinter = mock(Printer.class);
+			        CashRegister cashRegister = new CashRegister(mockPrinter);
+
+			        cashRegister.process(mockPurchase);
+
+			        verify(mockPurchase).asString();
+			        verify(mockPrinter).print(mockPurchase.asString());
+			    }
+
+		    The test case above is to verify the asString method in Purchase and the print method in Printer are called (of cause it is called, but we are just talking about how mockito mocks.)
+		    
+		    So, how does mockito do this inside? We can implement by ourselves like this:
+			    
+			    1. create a new class that extends the dependency class just for test.
+
+				public class PrinterMock extends Printer {
+
+				    public boolean isPrinterUsed = false;
+
+				    @Override
+				    public void print(String printThis) {
+				        isPrinterUsed = true;
+				    }
+				}
+
+				2. verify the print method in Printer is used when call process method.
+
+			    @Test
+			    public void shouldUsePrinterWhenProcessIsCalled() {
+			        PrinterMock printerMock = new PrinterMock();
+			        PurchaseStub purchaseStub = new PurchaseStub(null);
+			        CashRegister cashRegister = new CashRegister(printerMock);
+			        
+			        cashRegister.process(purchaseStub);
+			        
+			        assertTrue(printerMock.isPrinterUsed);
+			    }
+
+		    Mockito's implementation is more complex than the above shown, but the is theory the same.w
