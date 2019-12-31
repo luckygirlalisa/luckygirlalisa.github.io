@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Does SerialVersionUID must be Added for Serializable Classes?
+title: "Java应用中是否必须给Serializable Class加Version id"
 "
 description: ""
 category: 
 tags: []
 ---
 {% include JB/setup %}
-# Java应用中是否必须给Serializable Class加Version id
 
 ## 问题:
 
