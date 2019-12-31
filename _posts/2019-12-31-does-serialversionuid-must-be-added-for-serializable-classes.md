@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Java应用中是否必须给Serializable Class加Version id"
-"
 description: ""
 category: 
 tags: []
