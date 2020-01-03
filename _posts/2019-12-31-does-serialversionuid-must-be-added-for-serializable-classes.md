@@ -35,7 +35,7 @@ Ref: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Serial
 
 ## 序列化和反序列化过程举例
 
-<div style="text-align:center"><img src ="/assets/images/same-compiler-create-jar.png.png" style="height:300px;" /></div>
+<div style="text-align:center"><img src ="/assets/images/same-compiler-create-jar.png" style="height:300px;" /></div>
 <div style="text-align:center"><img src ="/assets/images/different-compiler-create-jars.png" style="height:300px;" /></div>
 
 由以上可见，
