@@ -85,10 +85,10 @@ DDD更容易引导设计者得出尽量多的对象，但聚焦在核心对象�
 
 ### Ref：
 
-[1] 徐昊改编的四色建模法：https://www.infoq.cn/article/xh-four-color-modeling
+[1] [徐昊改编的四色建模法](https://www.infoq.cn/article/xh-four-color-modeling)
 
-[2] 仝键的C4模型介绍：https://insights.thoughtworks.cn/c4-model/
+[2] [仝键的C4模型介绍](https://insights.thoughtworks.cn/c4-model/)
 
-[3] 伍斌的从“四色建模法”到“限界纸币建模法”：https://insights.thoughtworks.cn/paper-pen-modeling/
+[3] [伍斌的从“四色建模法”到“限界纸币建模法”](https://insights.thoughtworks.cn/paper-pen-modeling/)
 
-[4] Peter Coad的Color UML：https://en.wikipedia.org/wiki/Object_Modeling_in_Color
+[4] [Peter Coad的Color UML](https://en.wikipedia.org/wiki/Object_Modeling_in_Color)
