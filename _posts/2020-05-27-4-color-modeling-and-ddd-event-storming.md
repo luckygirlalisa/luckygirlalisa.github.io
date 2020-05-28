@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "四色建模法和DDD建模"
+title: "四色建模法和DDD事件风暴建模法"
 description: ""
 category: 
 tags: []
@@ -13,7 +13,7 @@ tags: []
 
 本文讨论的两种方法将对系统架构中Context，Container，Component，Code四层都有输入，过程和结果更聚焦在下层，关注业务核心数据。
 
-四色建模和DDD（Event storming部分）是两种现TW流行的两种建模方法。两个不同时间提出和流行的建模方式在建模思想上有着相通之处，也各有特色。
+四色建模和DDD事件风暴建模是两种现TW流行的两种建模方法。两个不同时间提出和流行的建模方式在建模思想上有着相通之处，也各有特色。
 
 ### 四色建模法
 
@@ -36,11 +36,11 @@ tags: []
 
       <div style="text-align:center"><img src ="/assets/images/四色建模-最终模型图.jpg" style="height:300px;" /></div>
 
-### 领域驱动模型设计
+### DDD事件风暴建模
 
 如果把DDD event storming分为业务梳理阶段（找事件），建模阶段（找模型），架构设计阶段（划分上下文及领域）三个阶段，中间阶段即为建模。
 
-与四色建模法类似，DDD event storming中也用到不同颜色标识的内容，如下图所示：
+与四色建模法类似，DDD事件风暴中也用到不同颜色标识的内容，如下图所示：
 <div style="text-align:center"><img src ="/assets/images/DDD-event-storming-legend.png" style="height:300px;" /></div>
 
 DDD event storming得出模型图的过程大致如下：
