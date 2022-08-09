@@ -6,6 +6,8 @@ category:
 tags: []
 ---
 {% include JB/setup %}
+Note: 英文版发表在Thoughtworks Insight, [Part1](https://www.thoughtworks.com/insights/blog/agile-project-management/surviving-integration-third-party-services-pt1)和[Part2](https://www.thoughtworks.com/insights/blog/agile-project-management/surviving-integration-third-party-services-pt2).
+
 ## 对未知的恐惧
 
 <div style="text-align:center"><img src ="/assets/images/fear.jpeg" style="height:200px;" /></div>
