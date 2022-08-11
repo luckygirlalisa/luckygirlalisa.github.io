@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How do we decision on the tech stack"
+title: "Aspects you may need to consider for decision on the tech stack"
 description: ""
 category: 
 tags: []
