@@ -65,7 +65,7 @@ BaaP模式使三方获益，构成win-win-win三赢局面。
 ## 银行业务知识科普
 ### 银行业务分类
 按照资产负债表的构成划分，银行的业务主要分为三类：负债业务、资产业务、中间业务。
-<div style="text-align:center"><img src ="/assets/images/银行业务分类.png" style="height:300px;" /></div>
+<div style="text-align:center"><img src ="/assets/images/银行业务分类.png" style="height:213px;" /></div>
 
 <div style="text-align:center"><img src ="/assets/images/金融企业业务领域地图.png" style="height:300px;" /></div>
 
