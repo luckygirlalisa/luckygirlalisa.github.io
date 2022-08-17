@@ -70,14 +70,14 @@ BaaP模式使三方获益，构成win-win-win三赢局面。
 <div style="text-align:center"><img src ="/assets/images/金融企业业务领域地图.png" style="height:300px;" /></div>
 
 ### 参考资料
-- [Digital banking fintechs](https://www.smartstream-stp.com/zh-hans/industries/digital-banking-fintechs/)
+- [Smartstream](https://www.smartstream-stp.com/zh-hans/industries/digital-banking-fintechs/)
 - [麦肯锡如何打造纯数字银行](https://www.mckinsey.com.cn/%E5%A6%82%E4%BD%95%E6%89%93%E9%80%A0%E4%B8%80%E5%AE%B6%E7%BA%AF%E6%95%B0%E5%AD%97%E9%93%B6%E8%A1%8C%EF%BC%9F/)
 - [德勤：亚太地区数字银行-能否为金融服务增值？](https://www2.deloitte.com/cn/zh/pages/financial-services/articles/digital-banks-in-asia-pacific.html)
 - [中国金融新闻网](https://www.financialnews.com.cn/gc/gz/202202/t20220228_240397.html)
 - [花旗银行digital banking](https://www.privatebank.citibank.com/sc/why-us/digital-banking)
-- (https://tech.sina.com.cn/it/2020-07-15/doc-iivhuipn3036382.shtml)
-- (https://verifiedpayments.com/blog/banking-as-a-service-and-banking-as-a-product/)
-- (https://sdk.finance/products/digital-retail-bank/)
-- (https://www.velmie.com/white-label-banking-platform)
-- (https://www.bmtx.com/white-label)
+- [关于数字银行 也许还不知道的8件事](https://tech.sina.com.cn/it/2020-07-15/doc-iivhuipn3036382.shtml)
+- [Banking-as-a-Service and Banking-as-a-Platform are NOT the same! So what’s the difference?](https://verifiedpayments.com/blog/banking-as-a-service-and-banking-as-a-product/)
+- [White-Label Banking Platform from SDK.finance](https://sdk.finance/products/digital-retail-bank/)
+- [Digital Banking Software from Velmie](https://www.velmie.com/white-label-banking-platform)
+- [White label from Bmt](https://www.bmtx.com/white-label)
 
